@@ -3,7 +3,7 @@ An extension for MIT App Inventor that adds graphing capability (for pie, bar, a
 
 # How to Use
 We have created an example App Inventor project for you to import and take a look at the blocks. 
-<p><a href="chartmaker/ChartMakerExample.aia" download>ChartMakerExample.aia</a></p>
+<p><a href="https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/ChartMakerExample.aia" download>ChartMakerExample.aia</a></p>
 <a  download>
 
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/piechart.png?raw=true "Pie Chart Block")
