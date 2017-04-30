@@ -39,7 +39,7 @@ public class ChartMaker extends AndroidNonvisibleComponent implements Component 
         super(container.$form());
     }
 
-    private static String preparePieLabels(YailList typeOfInput, YailList inputLabel) {
+    private static String PreparePieLabels(YailList typeOfInput, YailList inputLabel) {
         StringBuilder pieLabels = new StringBuilder();
         for (int i = 1; i < typeOfInput.size() + 1; i++) {
             pieLabels.append("data.addColumn('" + typeOfInput.get(i).toString() + "', '" +
@@ -48,7 +48,7 @@ public class ChartMaker extends AndroidNonvisibleComponent implements Component 
         return pieLabels.toString();
     }
 
-    private static String preparePieValues(YailList itemList, YailList valueList){
+    private static String PreparePieValues(YailList itemList, YailList valueList){
         StringBuilder parsedValues = new StringBuilder();
         parsedValues.append("data.addRows([");
         for (int i = 1; i < itemList.size() + 1; i++){
@@ -65,7 +65,7 @@ public class ChartMaker extends AndroidNonvisibleComponent implements Component 
     }
 
 
-    private static String prepareLineLabels(YailList labelInput){
+    private static String PrepareLineLabels(YailList labelInput){
         StringBuilder parsedLabels = new StringBuilder();
         parsedLabels.append("data.addColumn('number', 'X');");
         for (int i = 1; i < labelInput.size() + 1; i++) {
@@ -74,7 +74,7 @@ public class ChartMaker extends AndroidNonvisibleComponent implements Component 
         return parsedLabels.toString();
     }
 
-    private static String prepareLineValues(YailList values){
+    private static String PrepareLineValues(YailList values){
         int numRows = values.size();
         YailList rowData = (YailList) values.get(1);
         int numDigits = rowData.size();
@@ -104,10 +104,10 @@ public class ChartMaker extends AndroidNonvisibleComponent implements Component 
 
     @SimpleFunction(description = "Creates a pie chart from a title string and input lists of data, " +
             "types, labels, items, and values and displays the chart in the WebViewer passed as the final argument. ")
-    public void drawPieChart(String title, YailList types, YailList labels, YailList items,
+    public void DrawPieChart(String title, YailList types, YailList labels, YailList items,
                              YailList values, WebViewer webViewer){
-        String parsedTypes = preparePieLabels(types, labels);
-        String parsedValues = preparePieValues(items, values);
+        String parsedTypes = PreparePieLabels(types, labels);
+        String parsedValues = PreparePieValues(items, values);
         try {
             String htmlCode = "<html>\n" +
                     "  <head>\n" +
@@ -153,10 +153,10 @@ public class ChartMaker extends AndroidNonvisibleComponent implements Component 
 
     @SimpleFunction(description = "Creates a bar chart from a title string and input lists of data " +
             "types, labels, items, and values and displays the chart in the WebViewer passed as the final argument. ")
-    public void drawBarGraph(String title, YailList types, YailList labels, YailList items,
+    public void DrawBarGraph(String title, YailList types, YailList labels, YailList items,
                              YailList values, WebViewer webViewer){
-        String parsedTypes = preparePieLabels(types, labels);
-        String parsedValues = preparePieValues(items, values);
+        String parsedTypes = PreparePieLabels(types, labels);
+        String parsedValues = PreparePieValues(items, values);
         try {
             String htmlCode = "<html>\n" +
                     "  <head>\n" +
@@ -202,9 +202,9 @@ public class ChartMaker extends AndroidNonvisibleComponent implements Component 
     @SimpleFunction(description = "Creates a line graph from a main title string, x- and y-axis " +
             "title strings, and input lists of lists of labels and values, and displays the chart " +
             "in the WebViewer passed as the final argument. ")
-    public void drawLineGraph(String chartTitle, String hAxisTitle, String vAxisTitle, YailList labels, YailList values, WebViewer webViewer){
-        String parsedLabels = prepareLineLabels(labels);
-        String parsedValues = prepareLineValues(values);
+    public void DrawLineGraph(String chartTitle, String hAxisTitle, String vAxisTitle, YailList labels, YailList values, WebViewer webViewer){
+        String parsedLabels = PrepareLineLabels(labels);
+        String parsedValues = PrepareLineValues(values);
         try {
             String htmlCode = "<html>\n" +
                     "  <head>\n" +
