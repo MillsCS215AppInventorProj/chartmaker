@@ -16,8 +16,9 @@ Download the extension file and import it into your project:
 
 <p>The implentation requires a WebViewer</p>
 
-## Example Blocks
+### Example Blocks
 You can see the designated types for each parameter here. You must pass the WebViewer to the blocks. 
+
 <br>
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/piechart.png?raw=true "Pie Chart Block")
 <br>
