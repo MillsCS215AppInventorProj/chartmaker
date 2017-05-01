@@ -10,6 +10,6 @@ Download the extension file (<a href="https://github.com/MillsCS215AppInventorPr
 <h3> Example Blocks</h3>
 
 <p>You can see the designated types for each parameter here. To display your chart you will need a WebViewer, which you must pass to the blocks.</p>
-<img src="example/piechart.png" alt="Pie Chart Block">
-<img src="example/barchart.png" alt="Bar Chart Block">
-<img src="example/linechart.png" alt="Line Chart Block">
+<p><img src="example/piechart.png" alt="Pie Chart Block"></p>
+<p><img src="example/barchart.png" alt="Bar Chart Block"></p>
+<p><img src="example/linechart.png" alt="Line Chart Block"></p>
