@@ -17,7 +17,8 @@ Download the extension file and import it into your project:
 <p>The implentation requires a WebViewer</p>
 
 ### Example Blocks
-You can see the designated types for each parameter here. You must pass the WebViewer to the blocks. 
+
+<p>You can see the designated types for each parameter here. You must pass the WebViewer to the blocks.</p>
 
 <br>
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/piechart.png?raw=true "Pie Chart Block")
@@ -26,4 +27,4 @@ You can see the designated types for each parameter here. You must pass the WebV
 <br>
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png?raw=true "Line Chart Block")
 
-<img src="https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png" alt="Line Chart" />
+<img src="https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png" alt="Line Chart" /
