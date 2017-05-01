@@ -14,6 +14,6 @@ Download the extension file and import it into your project:
 <p>We have also created an example App Inventor project for you to import and take a look at the blocks and how they can be used.</p> 
 <p><a href="https://github.com/MillsCS215AppInventorProj/chartmaker/raw/master/ChartMakerExample.aia" download>ChartMakerExample.aia</a></p>
 
-![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/piechart.png?raw=true "Pie Chart Block")
+![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/piechart.png)
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/barchart.png?raw=true "Bar Chart Block")
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png?raw=true "Line Chart Block")
