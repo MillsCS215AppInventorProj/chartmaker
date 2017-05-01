@@ -5,7 +5,10 @@ An extension for MIT App Inventor that adds graphing capability (for pie, bar, a
 
 Download the extension file and import it into your project:
 <p><a href="https://github.com/MillsCS215AppInventorProj/chartmaker/raw/master/edu.mills.appinventor.ChartMaker.aix" download>ChartMaker.aix</a></p>
-<br>
+
+<p><a href="http://ai2.appinventor.mit.edu/reference/other/extensions.html">How to import extensions to your project</a><
+
+<br>ff
 <br>
 <p>We have also created an example App Inventor project for you to import and take a look at the blocks and how they can be used.</p> 
 <p><a href="https://github.com/MillsCS215AppInventorProj/chartmaker/raw/master/ChartMakerExample.aia" download>ChartMakerExample.aia</a></p>
