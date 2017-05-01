@@ -27,4 +27,4 @@ Download the extension file and import it into your project:
 <br>
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png?raw=true "Line Chart Block")
 
-<img src="https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png" alt="Line Chart" /
+<img src="example/linechart.png" alt="Line Chart">
