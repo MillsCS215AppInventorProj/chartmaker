@@ -24,3 +24,5 @@ You can see the designated types for each parameter here. You must pass the WebV
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/barchart.png?raw=true "Bar Chart Block")
 <br>
 ![Alt text](https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png?raw=true "Line Chart Block")
+
+<img src="https://github.com/MillsCS215AppInventorProj/chartmaker/blob/master/example/linechart.png" alt="Line Chart" />
